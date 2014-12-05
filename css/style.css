@@ -1,0 +1,94 @@
+/*COLOR PALETTE
+
+Violet: #b41689
+Purple: #7b4397
+Grey: #ebebeb
+Dark grey: #9a9a9a
+
+*/
+
+* {
+  box-sizing: content-box;
+  margin: 0;
+}
+
+/*TYPOGRAPHY*/
+
+h1 {
+  color: #cb0046;
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-family: 'Noto Serif', Georgia, serif;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+p, ul {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+
+/*LAYOUT*/
+
+header {
+  width: 100%;
+  background-color: #d8d8d8;
+  padding: 1rem 0 1rem 0;
+}
+
+input {
+  background-color: #ebebeb;
+  border: 1px solid #9a9a9a;
+  display: block;
+  height: 2rem;
+  width: 200px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #42c357;
+  border: 0;
+  color: white;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  height: 2rem;
+  width: 195px;
+  margin-top: 2rem;
+}
+
+ul {
+  padding: 0px;
+  margin-top: 2rem;
+}
+
+.add {
+  background: url('../img/plant.png');
+  background-repeat: repeat;
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.list {
+  margin: 0;
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.items li {
+  list-style-type: none;
+  border-bottom: 1px solid #d8d8d8;
+  color: #333;
+  padding: 1rem;
+  width: 50%;
+  margin: 0 auto;
+}
