@@ -4,27 +4,24 @@
   <meta charset="UTF-8">
   <title>Little Shopping List of Horrors</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans|Oswald|Noto+Serif' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif|Oswald' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="js/app.js"></script>
 </head>
-<body>
-  <header>
-    <h1>Little Shopping List of Horrors</h1>
-  </header>
-  <section class="add">
-    <h2>Feed me, Seymour.</h2>
-    <input type="text"></input>
-    <button>Add</button>    
-  </section>
-  <section class="list">
-    <p>Click on an item to mark it done.</p>
-    <ul class="items">
-      <li>Bananas</li>
-      <li>Apples</li>
-      <li>Cheese</li>
-    </ul>
-    <button>Clear list</button>
-  </section>
+<header>
+  <h1>Little Shopping List of Horrors</h1>
+  <div id="plant-container"><img id="plant-icon" src="img/plant_icon.svg"></div>
+</header>
+
+<section id="form">
+  <h2>Feed me, Seymour!</h2>
+  <input type="text" id="newItem" placeholder="NOM NOM NOM">
+  <input type="submit" id="addItem" value="Add">
+</section>
+
+<section id="itemList">
+  <ul>
   
-</body>
+  </ul>
+</section>
 </html>
