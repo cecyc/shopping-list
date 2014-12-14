@@ -10,7 +10,7 @@ function addListItem() {
 }
 
 function strikeItem() {
-    $('li').toggleClass('strikethrough');
+    $(this).parent().toggleClass('strikethrough');
 }
 
 $(function() {
