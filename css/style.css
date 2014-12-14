@@ -96,6 +96,7 @@ li:last-child {
   background-color: #cb0046;
   margin-right: 3rem;
   border: 0;
+  display: inline;
 }
 
 .strikethrough {
